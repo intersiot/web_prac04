@@ -19,7 +19,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!--  네이버 지도 API  -->
     <script type="text/javascript"
-            src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=y7433yvs0c&submodules=geocoder"></script>
+            src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=YOUR_CLIENT_ID&submodules=geocoder"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -89,27 +89,26 @@
 </head>
 
 <body>
-<div class="wrap">
-    <div class="banner">
-        <div class="d-flex flex-column align-items-center"
-             style="background-color: rgba(0,0,0,0.5);width: 100%;height: 100%;">
-            <h1 class="title mt-5 mb-2">스파르타 맛집 지도</h1>
+    <div class="wrap">
+        <div class="banner">
+            <div class="d-flex flex-column align-items-center"
+                 style="background-color: rgba(0,0,0,0.5);width: 100%;height: 100%;">
+                <h1 class="title mt-5 mb-2">스파르타 맛집 지도</h1>
+            </div>
         </div>
-    </div>
-    <div id="map"></div>
+        <div id="map"></div>
 
-    <div class="matjip-list" id="matjip-box">
-        <div class="card" id="card-0">
-            <div class="card-body">
-                <h5 class="card-title"><a href="#" class="matjip-title">혼가츠</a></h5>
-                <h6 class="card-subtitle mb-2 text-muted">일식</h6>
-                <p class="card-text">서울 마포구 와우산로21길 36-6 (서교동)</p>
-                <p class="card-text" style="color:blue;">생방송 투데이</p>
+        <div class="matjip-list" id="matjip-box">
+            <div class="card" id="card-0">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="#" class="matjip-title">혼가츠</a></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">일식</h6>
+                    <p class="card-text">서울 마포구 와우산로21길 36-6 (서교동)</p>
+                    <p class="card-text" style="color:blue;">생방송 투데이</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 </body>
 
 <!--  script code  -->
