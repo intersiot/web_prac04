@@ -6,10 +6,14 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>간단한 지도 표시하기</title>
+    
+    <!-- NAVER API -->
     <script type="text/javascript"
-            src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=y7433yvs0c"></script>
+            src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=YOUR_CLIENT_ID"></script>
+    <!-- JS -->
     <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+    <!-- CSS Style -->
     <style>
         #map {
             width: 100%;
@@ -17,6 +21,7 @@
         }
     </style>
 
+    <!-- js -->
     <script>
         $(document).ready(function () {
             // 지도를 띄우는데 핵심이 되는 코드
@@ -69,7 +74,8 @@
         })
     </script>
 </head>
+    
 <body>
-<div id="map"></div>
+    <div id="map"></div>
 </body>
 </html>
